@@ -1,0 +1,58 @@
+.container{
+    background-color: teal;
+height:120%;
+
+}
+.box{
+    margin: auto;
+    font-size: 20px;
+    background-color: rgb(244, 247, 250);
+    box-sizing: border-box;
+    height: auto;
+    width:400px;
+    padding: 25px;
+    float: right 100px;
+    border-radius: 15px;
+    margin-top: 15px teal;
+   
+    
+
+    
+}
+.button1{
+    background-color: teal;
+    border: none;
+    font-size: 25px;
+    
+}
+.div:hover{
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation: alternate-reverse;
+    
+    
+}
+.div{
+    width:90%;
+    background-color: teal;
+    border: 2px solid black;
+    border-radius: 35px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 30px;
+
+}
+h1{
+    text-align: center; 
+}
+h2{
+    text-align: center;
+}
+@keyframes glow{
+    50%{box-shadow:0px 0px 50px rgb(255, 255, 0)};
+    }
+
+
