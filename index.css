@@ -1,6 +1,6 @@
 .container{
     background-color: teal;
-height:120%;
+height:100%;
 
 }
 .box{
@@ -13,17 +13,12 @@ height:120%;
     padding: 25px;
     float: right 100px;
     border-radius: 15px;
-    margin-top: 15px teal;
-   
-    
-
-    
+    margin-top: 15px teal;    
 }
 .button1{
     background-color: teal;
     border: none;
-    font-size: 25px;
-    
+    font-size: 25px;    
 }
 .div:hover{
     animation-name: glow;
