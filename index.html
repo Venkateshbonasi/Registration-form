@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style> 
+     
+    </style>
+</head>
+<body>
+<form action="index.php" method="POST" enctype="multipart/form-data">
+  <div class="container">
+    
+    <div class="box">
+       <h2 >REGISTER</h2>
+    
+         <label for="username" class="name">USERNAME</label><br>
+        <input type="text" id="username" placeholder="enter username" required><br>
+         <br>
+      <label for="username" class="name">PASSWORD</label><br>
+      <input type="text" id="password" placeholder="enter password" required width="10"><br>
+     <br>
+      <label for="email" class="name">EMAIL</label><br>
+     <input type="email" id="email" placeholder="email id" required><br>
+     <br>
+     <label for="phn num" class="num">PHONE NUM</label><br>
+     <input type="tel" id="phn num" maxlength="10"><br>
+     <br>
+     <label for="bday" class="num">DOB</label><br>
+     <input type="date" id="bday"  required><br>
+     <br>
+     <label for="gender" value="select gender"> GENDER</label>
+     <select id="gender">
+      <option value="select">select gender</option>
+      <option value="MALE">MALE</option>
+      <option value="FEMALE">FEMALE</option>
+      <option value="MALE">OTHERS</option>
+
+     </select><br>
+     <br>
+     <label for="terms">Terms and agreements</label>
+     <input id="terms" type="checkbox" required>
+     <br>
+
+    
+       
+     <div class="div"><input type="submit" class="button1">
+
+     </div>
+    <input type="reset" class="button"><br>
+    </div>
+  </div>
+  </form>
+</body>
+</html>
